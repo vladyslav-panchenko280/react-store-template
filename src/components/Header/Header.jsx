@@ -18,7 +18,7 @@ function Header() {
           <header className="header">
                <div className="header__fixed">
                     <div className="header__box">
-                         <Link to="/" className="header__logo">
+                         <Link to="/OnlineStore" className="header__logo">
                               <p>LOGO</p>
                          </Link>
 
