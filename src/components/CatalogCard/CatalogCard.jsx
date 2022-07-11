@@ -82,7 +82,7 @@ CatalogCard.propTypes = {
 CatalogCard.defaultProps = {
      name: "Untitled product",
      price: 0,
-     picture: "./data/products/pictures/no-image.jpg",
+     picture: "OnlineStore/data/products/pictures/no-image.jpg",
      code: 9999,
      color: "none"
 }
