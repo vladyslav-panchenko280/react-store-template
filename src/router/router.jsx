@@ -6,7 +6,7 @@ import Favourite from '../pages/Favourite/Favourite';
 function Router() {
      return (
           <Routes>
-               <Route exact path='/' element={
+               <Route exact path='/OnlineStore' element={
                     <Navigate to='/catalog' />
                } />
                <Route path="/catalog" element={
