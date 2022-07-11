@@ -12,7 +12,7 @@ import './styles/index.scss';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='https://vladyslav-panchenko280.github.io/OnlineStore'>
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
           <App />
