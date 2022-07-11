@@ -1,0 +1,24 @@
+@use '../../styles/utilities/variables.scss' as *;
+@use '../../styles/utilities/mixins.scss' as *;
+
+.favourite {
+     width: $contentWidth;
+     display: flex;
+     align-content: center;
+     flex-wrap: wrap;
+     gap: 38px;
+     padding: 40px 0;
+
+     &__item {
+          @include customSize(220px, 370px);
+     }
+
+     &:empty:after {
+          @include customFont(24px, 500, #000);
+          @include customFlexAlign(flex, center, center);
+          @include positionAbsoluteParams;
+          margin: auto;
+          content: $emptyPageDescription;
+     }
+
+}

@@ -1,0 +1,47 @@
+@use '../../styles/utilities/variables.scss' as *;
+@use '../../styles/utilities/mixins.scss' as *;
+
+.error { 
+     color: #ff0000;
+}
+
+.purchaseForm {
+     background: $clearWhiteColor;
+     border: $standartBorder;
+     padding: 10px 50px;
+
+     &__inputContainer {
+          display: flex;
+          flex-direction: column;
+          margin: 20px 0;
+          gap: 5px;
+     }
+
+     &__inputLabel {
+          color: rgba(4, 4, 4, 1);
+     }
+
+     &__input {
+          @include customSize(100%, 35px);
+          padding: 0 13px;
+          font-size: 16px;
+          border: $standartBorder;
+     }
+
+     &__button {
+          border-radius: 24px;
+          padding: 10px 30px;
+          background-color: #000;
+          display: flex;
+          color: $clearWhiteColor;
+          @include customFont(16px, 500, $clearWhiteColor);
+          cursor: pointer;
+          margin: 0 auto;
+          margin-top: 30px;
+          margin-bottom: 20px;
+     }
+
+     &__total {
+          @include customFont(18px, 500, #000)
+     }
+}

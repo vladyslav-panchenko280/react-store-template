@@ -1,0 +1,61 @@
+@use '../../styles/utilities/variables.scss' as *;
+@use '../../styles/utilities/mixins.scss' as *;
+
+.modal {
+     @include customSize(516px, 280px);
+     @include customFlexAlign(flex, center, space-between);
+     border-radius: 10px;
+     flex-direction: column;
+     border: $standartBorder;
+     background-color: $clearWhiteColor;
+
+     &-overlay {
+          background-color: $bgModalOverlayColor;
+          position: fixed;
+          @include customSize(100vw, 100vh);
+          @include customFlexAlign(flex, center, center);
+          top: 0;
+          opacity: 0;
+          transition: 0.5s;
+          z-index: -1;
+          left: 0;
+     }
+
+     &__header {
+          @include customFlexAlign(flex, center, space-around);
+          @include customSize(100%, 50px);
+          border-radius: 10px;
+          background-color: rgba(4, 4, 4, 0.6);
+     }
+
+     &__header-text {
+          @include customFont(20px, 400, $clearWhiteColor);
+     }
+
+     &__text {
+          padding: 0 10%;
+          text-align: center;
+          color:$textModalColor;
+          line-height: 30px;
+     }
+
+     &__btn-container {
+          @include customFlexAlign(flex, none, space-around);
+          width: 50%;
+          padding: 20px 0;
+     }
+
+     &__btn {
+          border-radius: 4px;
+          @include customSize(101px, 41px);
+          @include customFont(14px, 600, $textModalColor);
+          cursor: pointer;
+          background-color: $clearWhiteColor;
+          border: $standartBorder;
+     }
+
+     &--active {
+          opacity: 1;
+          z-index: $modalZIndex;
+     }
+}

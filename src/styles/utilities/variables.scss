@@ -1,0 +1,24 @@
+// Colors
+$bgMainColor: #f4f4f4;
+$bgHeaderColor: #27282c;
+$clearWhiteColor: #fff;
+$borderItemColor: rgba(39, 40, 44, .2);
+$ctaButtonColor: #009900;
+$bgModalOverlayColor: rgba(4, 4, 4, 0.45);
+$textModalColor: #141414;
+
+// Sizes
+$contentWidth: 90%;
+$headerHeight: 70px;
+$standartGap: 10px;
+$fullVH: 100vh;
+$fullWH: 100wh;
+$mainHeightCalc: calc($fullVH - $headerHeight);
+
+// Z-indexes
+$modalZIndex: 1000;
+$headerZIndex: 100;
+
+// Others
+$standartBorder: 1px solid $borderItemColor;
+$emptyPageDescription: 'No items have been added';

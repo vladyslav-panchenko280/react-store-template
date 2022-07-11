@@ -1,0 +1,9 @@
+@use './styles/utilities/variables.scss' as *;
+@use './styles/utilities/mixins.scss' as *;
+
+.main {
+     background-color: $bgMainColor;
+     min-height: $mainHeightCalc;
+     @include customSize(100%, 100%);
+     @include customFlexAlign(flex, flex-start, center);
+}

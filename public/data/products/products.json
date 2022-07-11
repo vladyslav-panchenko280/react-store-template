@@ -1,0 +1,101 @@
+[
+     {
+          "id": 10,
+          "name": "IPhone 8 64Gb",
+          "price": 320,
+          "picture": "./data/products/pictures/iphone8.jpg",
+          "code": 3002,
+          "color": "red"
+     },
+     {
+          "id": 11,
+          "name": "IPhone 13 124Gb",
+          "price": 1099,
+          "picture": "./data/products/pictures/iphone13.jpeg",
+          "code": 2144,
+          "color": "grey"
+     },
+     {
+          "id": 12,
+          "name": "Samsung Galaxy A52",
+          "price": 399,
+          "picture": "./data/products/pictures/samsung-galaxy-a52.jpg",
+          "code": 1222,
+          "color": "grey"
+     },
+     {
+          "id": 13,
+          "name": "Xiaomi Redmi Note 11",
+          "price": 500,
+          "picture": "./data/products/pictures/xiaomi-redmi-note-11.jpg",
+          "code": 4356,
+          "color": "black"
+     },
+     {
+          "id": 14,
+          "name": "Xiaomi Redmi 9A",
+          "price": 390,
+          "picture": "./data/products/pictures/xiaomi-redmi-9a.jpg",
+          "code": 3022,
+          "color": "blue"
+     },
+     {
+          "id": 15,
+          "name": "Apple iPad 32Gb",
+          "price": 570,
+          "picture": "./data/products/pictures/apple-ipad.jpeg",
+          "code": 2344,
+          "color": "pink"
+     },
+     {
+          "id": 16,
+          "name": "Huawei MatePad Pro",
+          "price": 659,
+          "picture": "./data/products/pictures/huawei-matepad-pro.jpeg",
+          "code": 9932,
+          "color": "blue"
+     },
+     {
+          "id": 17,
+          "name": "Apple IPad Pro 11",
+          "price": 711,
+          "picture": "./data/products/pictures/apple-ipad-pro-11.jpg",
+          "code": 4991,
+          "color": "white"
+     },
+     {
+          "id": 18,
+          "name": "Microsoft Surface Pro 7 i5",
+          "price": 597,
+          "picture": "./data/products/pictures/microsoft-surface-pro-7.jpeg",
+          "code": 1772,
+          "color": "white"
+     },
+     {
+          "id": 19,
+          "name": "Samsung Galaxy Tab A7",
+          "price": 600,
+          "picture": "./data/products/pictures/samsung-galaxy-tab-a7.jpeg",
+          "code": 2222,
+          "color": "grey"
+     },
+     {
+          "id": 20,
+          "name": "Huawei MatePad Pro",
+          "price": 672,
+          "picture": "./data/products/pictures/huawei-matepad-pro.jpeg",
+          "code": 6190,
+          "color": "black"
+     },
+     {
+          "id": 21,
+          "name": "Samsung Galaxy Tab",
+          "price": 470,
+          "picture": "./data/products/pictures/samsung-galaxy-tab.jpg",
+          "code": 3002,
+          "color": "grey"
+     },
+     {
+          "id": 22
+     }
+]

@@ -1,0 +1,15 @@
+@use '../../styles/utilities/variables.scss' as *;
+@use '../../styles/utilities/mixins.scss' as *;
+
+.emptyPage {
+     @include customFlexAlign(flex, center, center);
+     height: $mainHeightCalc;
+     flex-direction: column;
+
+     &__alertText {
+          @include customFont(24px, 500, #000);
+          @include customFlexAlign(flex, center, center);
+          @include positionAbsoluteParams;
+          margin: auto;
+     }
+}

@@ -1,0 +1,88 @@
+@use '../../styles/utilities/variables.scss' as *;
+@use '../../styles/utilities/mixins.scss' as *;
+
+.CatalogCard {
+     @include customSize(100%, 100%);
+     border: $standartBorder;
+     background-color: $clearWhiteColor;
+     padding: 20px;
+
+     &__picture {
+          @include customSize(100%, 220px);
+          @include customFlexAlign(flex, center, center);
+          padding-bottom: 20px;
+
+          &>img {
+               width: 100%;
+          }
+     }
+
+     &__name {
+          @include customFont(18px, 400, #000);
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          margin: 10px 0;
+     }
+
+     &__color {
+          @include customFlexAlign(flex, center);
+          float: right;
+          height: 25px;
+     }
+
+     &__colorCycle {
+          border-radius: 100%;
+          @include customSize(15px, 15px);
+          margin-right: 10px;
+          border: 1px solid rgba(39, 40, 44, 0.2);
+     }
+
+     &__colorSpan {
+          text-transform: capitalize;
+     }
+
+     &__price {
+          display: inline;
+          @include customFont(24px, 500, #000);
+     }
+
+     &__code {
+          display: flex;
+          @include customFont(10px, 300, #000)
+     }
+
+     &__footer {
+          @include customFlexAlign(flex, center, center);
+          float: right;
+     }
+
+     &__ctaButton {
+          border-radius: 24px;
+          padding: 10px 30px;
+          background-color: $ctaButtonColor;
+          display: flex;
+          color: $clearWhiteColor;
+          font-weight: 500;
+          cursor: pointer;
+
+          &--added {
+               padding: 10px 13px;
+          }
+     }
+
+     &__link {
+          text-decoration: none;
+          color: $clearWhiteColor;
+     }
+
+     &__favButton {
+          background: none;
+          @include customSize(45px, 55px);
+          cursor: pointer;
+
+          &>img {
+               width: 32px;
+          }
+     }
+}

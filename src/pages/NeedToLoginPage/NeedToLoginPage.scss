@@ -1,0 +1,23 @@
+@use '../../styles/utilities/variables.scss' as *;
+@use '../../styles/utilities/mixins.scss' as *;
+
+.needToLoginPage {
+     @include customFlexAlign(flex, center, center);
+     height: $mainHeightCalc;
+     flex-direction: column;
+
+     &__alertText {
+          @include customFont(28px, 600, #000);
+          margin-bottom: 30px;
+     }
+
+     &__loginBtn {
+          border-radius: 24px;
+          padding: 10px 30px;
+          background-color: #000;
+          display: flex;
+          color: $clearWhiteColor;
+          @include customFont(16px, 500, $clearWhiteColor);
+          cursor: pointer;
+     }
+}

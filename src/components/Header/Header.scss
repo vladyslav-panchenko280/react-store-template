@@ -1,0 +1,72 @@
+@use '../../styles/utilities/variables.scss' as *;
+@use '../../styles/utilities/mixins.scss' as *;
+
+.header {
+     display: flex;
+     justify-content: center;
+     background-color: $bgHeaderColor;
+     align-items: center;
+     height: $headerHeight;
+
+     &__fixed {
+          @extend .header;
+          position: fixed;
+          width: 100%;
+          z-index: $headerZIndex;
+     }
+
+     &__logo {
+          position: absolute;
+          left: 0;
+          text-decoration: none;
+          & > * {
+               @include customFont(20px, 600, $clearWhiteColor);
+          }
+     }
+
+     &__box {
+          @include customFlexAlign(flex, center, flex-end);
+          width: $contentWidth;
+          position: fixed;
+     }
+
+     &__itemBox {
+          @include customFlexAlign(flex, center);
+          margin-right: 20px;
+          cursor: pointer;
+          text-decoration: none;
+     }
+
+     &__bag {
+          @include customSize(30px, 30px);
+          margin-right: 7px;
+
+          &>img {
+               width: inherit;
+          }
+     }
+
+     &__span {
+          color: $clearWhiteColor;
+     }
+
+     &__favourite {
+          @include customSize(30px, 30px);
+          margin-right: 7px;
+          color: $clearWhiteColor;
+
+          &>img {
+               width: inherit;
+          }
+     }
+
+     &__loginBtn {
+          border-radius: 24px;
+          padding: 10px 30px;
+          background-color: $clearWhiteColor;
+          display: flex;
+          color: #000;
+          font-weight: 600;
+          cursor: pointer;
+     }
+}
