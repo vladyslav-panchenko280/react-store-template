@@ -9,7 +9,7 @@ export const fetchProducts = () => dispatch => {
      dispatch({
           type: START_FETCH_PRODUCTS
      })
-     getData('../../data/products/products.json')
+     getData('../../OnlineStore/data/products/products.json')
           .then(products => {
                const action = loadedProducts(products);
                dispatch(action)
