@@ -7,6 +7,7 @@
      flex-wrap: wrap;
      gap: 38px;
      padding: 40px 0;
+     flex: 1 1 1;
 
      &__item {
           @include customSize(220px, 370px);
