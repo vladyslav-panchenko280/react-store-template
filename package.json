@@ -1,7 +1,7 @@
 {
-  "name": "OnlineStore",
+  "name": "react-store-template",
   "version": "0.1.0",
-  "homepage": "https://vladyslav-panchenko280.github.io/OnlineStore",
+  "homepage": "https://vladyslav-panchenko280.github.io/react-store-template",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "5.16.4",
