@@ -1,9 +1,9 @@
 <h1 align="center">React store template</h1>
 
 <p align="center">
-<img src="./thumbnail.png" width="80%"></p>
+<img src="./thumbnail.png" width="80%">
 
-This is react online store template, which was developed during front-end courses. 
+This is react online store template, which was developed during front-end courses. </p>
 
 ## Features
 
